@@ -107,10 +107,22 @@ li {
   Header styling starts here
 =================================*/
 
+header .wrapper{
+  text-align: center;
+  background-color: #2b2e37;
+}
 
+header p{
+  color: #ffffff;
+  font-size: 30px;
+  padding: 10px 0;
+}
 
-
-
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
 /*=================================
   Header styling ends here
@@ -120,30 +132,28 @@ li {
   main styling starts here
 =================================*/
 
+.counter-list{
+  padding: 70px 0;
+  background: linear-gradient(to right, #fdd195 , #71e1f5);
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 200px auto 650px;
+}
 
+span,
+p{
+  color: #2b2e37;
+  opacity: 0.7;
+  text-transform: uppercase;
+}
 
-
-
-
+p{ font-size: 25px; }
 
 
 /*=================================
   main styling ends here
 =================================*/
-
-/*=================================
-  footer styling starts here
-=================================*/ 
-
-
-
-
-
-
-
- /*=================================
-  footer styling ends here
-=================================*/ 
 
 /*media query starts*/
 /*media query for 995px starts here*/
